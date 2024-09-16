@@ -1,5 +1,9 @@
-function greet() {
-	console.log("Hi!");
+function add(...numbers) {
+	let sum = 0;
+	for (let i = 0; i < numbers.length; i++) {
+		sum += numbers[i];
+	}
+	return sum;
 }
 
-greet();
+console.log(add(3, 1, 4, 5, 6));
