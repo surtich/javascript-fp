@@ -7,5 +7,9 @@ export function add(...numbers: number[]): number {
 }
 
 export function toUpperCase(...words: string[]) {
-	return [];
+	const upperWords: string[] = [];
+	for (let i = 0; i < words.length; i++) {
+		upperWords[i] = words[i].toUpperCase();
+	}
+	return upperWords;
 }
