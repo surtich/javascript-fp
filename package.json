@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "intro.js",
 	"scripts": {
-		"exe": "node --experimental-transform-types --no-warnings --watch intro.ts",
+		"exe": "node --experimental-transform-types --no-warnings --watch src/functions.ts",
 		"test": "vitest"
 	},
 	"author": "",
